@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtName"
+            android:hint="Name"
+            android:textColorHint="@color/white"
+            android:text="Bob"
+            android:drawableLeft="@drawable/ic_baseline_account_circle_24"
+            android:drawablePadding="13dp"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:inputType="phone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPhone"
+            android:hint="Phone Number"
+            android:textColorHint="@color/white"
+            android:text="0988123344"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:drawablePadding="13dp"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:inputType="phone"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtPassword"
+            android:hint="Password"
+            android:textColorHint="@color/white"
+            android:text="1234"
+            android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+            android:drawablePadding="13dp"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnSignUp"
+            android:textColor="@color/white"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_margin="8dp"
+            android:text="Sign Up"
+            android:enabled="true"
+            android:background="@drawable/btn_bg_design"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
