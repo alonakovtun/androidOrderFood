@@ -11,4 +11,7 @@
     <color name="colorPrimary">#004d40</color>
     <color name="colorPrimaryDark">#00251a</color>
     <color name="colorAccent">#39796b</color>
+
+    <color name="overlayBackground">#9da6a0</color>
+    <color name="overlayActionBar">#0e0d0e</color>
 </resources>
